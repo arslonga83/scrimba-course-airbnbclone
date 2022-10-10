@@ -29,3 +29,12 @@ nav {
   max-width: 800px;
   padding-top: 16px;
 }
+
+.card {
+  padding: 24px;
+}
+
+.stats {
+  display: flex;
+  gap: 8px;
+}
