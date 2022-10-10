@@ -5,6 +5,14 @@
   padding: 0;
 }
 
+.grey {
+  color: #918E9B;
+}
+
+.bold {
+  font-weight: bold;
+}
+
 nav {
   padding: 24px;
   background: #FFFFFF;

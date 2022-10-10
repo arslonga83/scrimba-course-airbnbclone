@@ -7,11 +7,11 @@ function Card() {
       <img src={image} />
       <div className='stats'>
         <img src={star} />
-        <p>5.0 (6) USA</p>
+        <p>5.0 <span className='grey'>(6) USA</span></p>
       </div>
       <p>Life lessons with Katie Zaferes
 </p>
-      <p>From $136 / person
+      <p><span className='bold'>From $136 </span>/ person
 </p>
     </div>
   )
