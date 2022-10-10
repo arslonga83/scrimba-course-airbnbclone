@@ -18,13 +18,14 @@ nav {
 }
 
 .collage {
-  width: 395px;
+  width: 75%;
+  max-width: 500px;
   margin: auto;
   margin-top: 24px;
   margin-bottom: 24px;
 }
 
 .hero-p {
-  width: 400px;
+  max-width: 800px;
   padding-top: 16px;
 }
