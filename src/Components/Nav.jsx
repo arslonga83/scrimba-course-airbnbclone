@@ -2,8 +2,10 @@ import logo from '../assets/logo.png'
 
 function Nav() {
   return (
-    <div>
+    <nav>
       <img src={logo}></img>
-    </div>
+    </nav>
   )
 }
+
+export default Nav
