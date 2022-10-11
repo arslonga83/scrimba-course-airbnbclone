@@ -4,7 +4,7 @@ function Card({img, rating, reviewCount, country, title, price}) {
   
   return (
     <div className='card'>
-      <img src={`/src/assets/${img}`} />
+      <img src={`/src/assets/${img}`} className='pic'/>
       <div className='stats'>
         <img src={star} />
         <span>{rating}</span>

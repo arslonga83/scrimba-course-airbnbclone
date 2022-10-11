@@ -38,8 +38,23 @@ nav {
   padding-top: 16px;
 }
 
+.cards {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+}
+
 .card {
   padding: 24px;
+  width: 175px;
+
+}
+
+.pic {
+  width: 175px;
+  height: 235px;
+  border-radius: 9px;
 }
 
 .stats {
