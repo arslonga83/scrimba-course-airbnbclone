@@ -1,17 +1,19 @@
-import image from '../assets/image 12.png'
 import star from '../assets/Star 1.png'
 
-function Card() {
+function Card({img, rating, reviewCount, country, title, price}) {
+  
   return (
     <div className='card'>
-      <img src={image} />
+      <img src={`/src/assets/${img}`} />
       <div className='stats'>
         <img src={star} />
-        <p>5.0 <span className='grey'>(6) USA</span></p>
+        <span>{rating}</span>
+        <span className='grey'>({reviewCount}) • </span>
+        <span className='grey'>{country}</span>
       </div>
-      <p>Life lessons with Katie Zaferes
+      <p>{title}
 </p>
-      <p><span className='bold'>From $136 </span>/ person
+      <p><span className='bold'>From ${price} </span>/ person
 </p>
     </div>
   )
